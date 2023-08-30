@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GasRPG",
+			"Path": "C:\\Users\\derwl\\Documents\\GitHub\\Games\\GasRPG\\Source\\GasRPG.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GasRPGEditor",
+			"Path": "C:\\Users\\derwl\\Documents\\GitHub\\Games\\GasRPG\\Source\\GasRPGEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

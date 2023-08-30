@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GasRPG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{780B94CC-11C1-420E-9B18-C300B3906FB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GasRPG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GasRPGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B01B3C0B-CDE4-4F6B-8FAB-290EC55DEAA3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GasRPG">
+      <UniqueIdentifier>{57CF8B68-96C8-456E-BEF2-67131808B1B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GasRPG\GasRPG.Build.cs">
+      <Filter>Source\GasRPG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GasRPG\GasRPG.cpp">
+      <Filter>Source\GasRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\GasRPG.h">
+      <Filter>Source\GasRPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GasRPG\GasRPGGameModeBase.cpp">
+      <Filter>Source\GasRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\GasRPGGameModeBase.h">
+      <Filter>Source\GasRPG</Filter>
+    </ClInclude>
+    <Filter Include="Source\GasRPG\Characters">
+      <UniqueIdentifier>{D2F8D248-8602-4F7C-B8F8-E35FE219E9CE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GasRPG\Characters\BaseCharacter.cpp">
+      <Filter>Source\GasRPG\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\Characters\BaseCharacter.h">
+      <Filter>Source\GasRPG\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GasRPG\Characters\GasPlayer.cpp">
+      <Filter>Source\GasRPG\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\Characters\GasPlayer.h">
+      <Filter>Source\GasRPG\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

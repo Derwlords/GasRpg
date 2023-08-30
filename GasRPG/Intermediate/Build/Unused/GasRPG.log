@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\derwl\Documents\GitHub\Games).
+  Parsing headers for GasRPGEditor
+    Running UnrealHeaderTool "C:\Users\derwl\Documents\GitHub\Games\GasRPG\GasRPG.uproject" "C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\GasRPGEditor\Development\GasRPGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\derwl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for GasRPGEditor in 3,0747203 seconds
+  Building GasRPGEditor...
+  Using Visual Studio 2019 14.29.30151 toolchain (C:\visual_IDE\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 12 processes...
+    [1/5] GasPlayer.cpp
+    [2/5] GasPlayer.gen.cpp
+    [3/5] UE4Editor-GasRPG-0006.lib
+       Создается библиотека C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\UE4Editor-GasRPG-0006.lib и объект C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\UE4Editor-GasRPG-0006.exp
+    [4/5] UE4Editor-GasRPG-0006.dll
+       Создается библиотека C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\UE4Editor-GasRPG-0006.suppressed.lib и объект C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\UE4Editor-GasRPG-0006.suppressed.exp
+    [5/5] GasRPGEditor.target
+  Total time in Parallel executor: 1,76 seconds
+  Total execution time: 5,47 seconds
