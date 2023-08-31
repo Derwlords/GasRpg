@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGasRPG_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x82FF206F,
+				0x5E84C78B,
 				0x03CDAAAC,
 				METADATA_PARAMS(nullptr, 0)
 			};

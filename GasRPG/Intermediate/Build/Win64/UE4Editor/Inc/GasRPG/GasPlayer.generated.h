@@ -36,7 +36,7 @@ public: \
 
 #define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AGasPlayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AGasPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGasPlayer) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AGasPlayer); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGasPlayer); \
@@ -48,8 +48,6 @@ public:
 
 
 #define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AGasPlayer() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGasPlayer(AGasPlayer&&); \
@@ -60,7 +58,16 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGasPlayer)
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_PRIVATE_PROPERTY_OFFSET
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(AGasPlayer, SpringArm); } \
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AGasPlayer, Camera); } \
+	FORCEINLINE static uint32 __PPO__LookUpRate() { return STRUCT_OFFSET(AGasPlayer, LookUpRate); } \
+	FORCEINLINE static uint32 __PPO__TurnRate() { return STRUCT_OFFSET(AGasPlayer, TurnRate); } \
+	FORCEINLINE static uint32 __PPO__SprintSpeed() { return STRUCT_OFFSET(AGasPlayer, SprintSpeed); } \
+	FORCEINLINE static uint32 __PPO__BaseWalkSpeed() { return STRUCT_OFFSET(AGasPlayer, BaseWalkSpeed); } \
+	FORCEINLINE static uint32 __PPO__SprintActive() { return STRUCT_OFFSET(AGasPlayer, SprintActive); }
+
+
 #define GasRPG_Source_GasRPG_Characters_GasPlayer_h_12_PROLOG
 #define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

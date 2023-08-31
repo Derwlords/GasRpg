@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 	GASRPG_API UClass* Z_Construct_UClass_AGasPlayer();
 	GASRPG_API UClass* Z_Construct_UClass_ABaseCharacter();
 	UPackage* Z_Construct_UPackage__Script_GasRPG();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void AGasPlayer::StaticRegisterNativesAGasPlayer()
 	{
@@ -31,6 +33,36 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LookUpRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LookUpRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurnRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SprintSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SprintSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseWalkSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseWalkSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SprintActive_MetaData[];
+#endif
+		static void NewProp_SprintActive_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_SprintActive;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -40,12 +72,75 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Characters/GasPlayer.h" },
 		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_SpringArm_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x0040000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SpringArm_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_Camera_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0040000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_Camera_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_LookUpRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_LookUpRate = { "LookUpRate", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, LookUpRate), METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_LookUpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_LookUpRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_TurnRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_TurnRate = { "TurnRate", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, TurnRate), METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_TurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_TurnRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintSpeed_MetaData[] = {
+		{ "Category", "MoveSpeed" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintSpeed = { "SprintSpeed", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, SprintSpeed), METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_BaseWalkSpeed_MetaData[] = {
+		{ "Category", "MoveSpeed" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_BaseWalkSpeed = { "BaseWalkSpeed", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, BaseWalkSpeed), METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_BaseWalkSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_BaseWalkSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	void Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_SetBit(void* Obj)
+	{
+		((AGasPlayer*)Obj)->SprintActive = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive = { "SprintActive", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AGasPlayer), &Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGasPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_SpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_Camera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_LookUpRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_TurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_BaseWalkSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGasPlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGasPlayer>::IsAbstract,
 	};
@@ -55,11 +150,11 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGasPlayer_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::Class_MetaDataParams))
@@ -73,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGasPlayer, 3731510703);
+	IMPLEMENT_CLASS(AGasPlayer, 408430096);
 	template<> GASRPG_API UClass* StaticClass<AGasPlayer>()
 	{
 		return AGasPlayer::StaticClass();

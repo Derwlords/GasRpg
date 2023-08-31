@@ -1,7 +1,7 @@
-C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
-C:\Users\derwl\Documents\GitHub\Games\GasRPG\Source\GasRPG\GasRPGGameModeBase.h
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Source\GasRPG\GasRPGGameModeBase.h
 C:\unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\derwl\Documents\GitHub\Games\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\GasRPGGameModeBase.generated.h
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\GasRPGGameModeBase.generated.h
