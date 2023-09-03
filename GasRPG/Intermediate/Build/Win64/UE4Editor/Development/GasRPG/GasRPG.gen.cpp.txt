@@ -1,0 +1,4 @@
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
+C:\unreal\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\unreal\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Source\GasRPG/GasRPG.h

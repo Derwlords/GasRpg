@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GasRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{780B94CC-11C1-420E-9B18-C300B3906FB5}</UniqueIdentifier>
+      <UniqueIdentifier>{93A6A23F-14EE-4901-BEB7-47CD67A66537}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GasRPG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B01B3C0B-CDE4-4F6B-8FAB-290EC55DEAA3}</UniqueIdentifier>
+      <UniqueIdentifier>{88761EB4-1976-4698-B26A-261BFD3FB6D9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GasRPG">
-      <UniqueIdentifier>{57CF8B68-96C8-456E-BEF2-67131808B1B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4620E5E5-ED38-4DF5-91D0-F95C76B789E5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GasRPG\GasRPG.Build.cs">
       <Filter>Source\GasRPG</Filter>
@@ -42,7 +45,7 @@
       <Filter>Source\GasRPG</Filter>
     </ClInclude>
     <Filter Include="Source\GasRPG\Characters">
-      <UniqueIdentifier>{D2F8D248-8602-4F7C-B8F8-E35FE219E9CE}</UniqueIdentifier>
+      <UniqueIdentifier>{914CE43B-BC80-4CCB-B117-599A9254FEB7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GasRPG\Characters\BaseCharacter.cpp">
       <Filter>Source\GasRPG\Characters</Filter>
@@ -55,6 +58,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\GasRPG\Characters\GasPlayer.h">
       <Filter>Source\GasRPG\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\GasRPG\GAS">
+      <UniqueIdentifier>{946AC757-A82F-47CB-A478-2A93C80F84C5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GasRPG\GAS\GASAttribute.cpp">
+      <Filter>Source\GasRPG\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\GAS\GASAttribute.h">
+      <Filter>Source\GasRPG\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GasRPG\GAS\GasPlayerAbility.cpp">
+      <Filter>Source\GasRPG\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\GAS\GasPlayerAbility.h">
+      <Filter>Source\GasRPG\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GasRPG\GAS\GASPlayerSystemComponent.cpp">
+      <Filter>Source\GasRPG\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\GAS\GASPlayerSystemComponent.h">
+      <Filter>Source\GasRPG\GAS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

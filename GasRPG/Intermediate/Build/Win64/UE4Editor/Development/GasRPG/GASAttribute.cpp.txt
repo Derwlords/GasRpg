@@ -1,0 +1,14 @@
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Source\GasRPG\GAS\GASAttribute.h
+C:\unreal\UE_4.27\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AttributeSet.h
+C:\unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/CurveTable.h
+C:\unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CurveTable.generated.h
+C:\unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+C:\unreal\UE_4.27\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+C:\unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+C:\unreal\UE_4.27\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\ScalableFloat.h
+C:\unreal\UE_4.27\Engine\Plugins\Runtime\DataRegistry\Source\DataRegistry\Public\DataRegistryId.h
+C:\unreal\UE_4.27\Engine\Plugins\Runtime\DataRegistry\Intermediate\Build\Win64\UE4Editor\Inc\DataRegistry\DataRegistryId.generated.h
+C:\unreal\UE_4.27\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\ScalableFloat.generated.h
+C:\unreal\UE_4.27\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AttributeSet.generated.h
+C:\Users\derwl\Documents\GitHub\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\GASAttribute.generated.h
