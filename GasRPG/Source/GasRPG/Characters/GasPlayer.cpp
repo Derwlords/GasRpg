@@ -5,6 +5,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "GasRPG/GAS/GASPlayerSystemComponent.h"
 
 
 AGasPlayer::AGasPlayer()
@@ -14,7 +15,14 @@ AGasPlayer::AGasPlayer()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
 
+	AbilitySystemComponent = CreateDefaultSubobject<UGASPlayerSystemComponent>(TEXT("AbilitySystemComp"));
+	AbilitySystemComponent->SetIsReplicated(true);
+	AbilitySystemComponent->SetReplicationMode(EGameplayEffectReplicationMode::Minimal);
 	CharacterMovement = GetCharacterMovement();
+
+	Attribute = CreateDefaultSubobject<UGASAttribute>(TEXT("Attribute"));
+
+
 	BaseWalkSpeed = 700;
 	SprintSpeed = 1500;
 	CharacterMovement->MaxWalkSpeed = BaseWalkSpeed;
@@ -40,6 +48,13 @@ void AGasPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAxis("LookUp", this, &AGasPlayer::LookUp);
 
 }
+
+UAbilitySystemComponent* AGasPlayer::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
+
 
 void AGasPlayer::Turn(float value)
 {

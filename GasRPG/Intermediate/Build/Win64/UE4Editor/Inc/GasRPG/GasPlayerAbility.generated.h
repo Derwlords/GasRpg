@@ -36,7 +36,7 @@ public: \
 
 #define GasRPG_Source_GasRPG_GAS_GasPlayerAbility_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UGasPlayerAbility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UGasPlayerAbility(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGasPlayerAbility) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGasPlayerAbility); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGasPlayerAbility); \
@@ -48,8 +48,6 @@ public:
 
 
 #define GasRPG_Source_GasRPG_GAS_GasPlayerAbility_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UGasPlayerAbility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGasPlayerAbility(UGasPlayerAbility&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGasPlayerAbility); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGasPlayerAbility); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGasPlayerAbility)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGasPlayerAbility)
 
 
 #define GasRPG_Source_GasRPG_GAS_GasPlayerAbility_h_15_PRIVATE_PROPERTY_OFFSET

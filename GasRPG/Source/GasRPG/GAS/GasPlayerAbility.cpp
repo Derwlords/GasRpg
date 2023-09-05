@@ -3,3 +3,7 @@
 
 #include "GasPlayerAbility.h"
 
+UGasPlayerAbility::UGasPlayerAbility()
+{
+
+}

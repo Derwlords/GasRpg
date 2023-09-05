@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GasRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{93A6A23F-14EE-4901-BEB7-47CD67A66537}</UniqueIdentifier>
+      <UniqueIdentifier>{0C56CB1B-4ED2-4288-9DAB-E97A4E49D295}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GasRPG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{88761EB4-1976-4698-B26A-261BFD3FB6D9}</UniqueIdentifier>
+      <UniqueIdentifier>{CD751536-3B45-49B0-B037-76D95A5ED147}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GasRPG">
-      <UniqueIdentifier>{4620E5E5-ED38-4DF5-91D0-F95C76B789E5}</UniqueIdentifier>
+      <UniqueIdentifier>{26A88BA5-0D34-4192-A2CC-943431723D49}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GasRPG\GasRPG.Build.cs">
       <Filter>Source\GasRPG</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GasRPG</Filter>
     </ClInclude>
     <Filter Include="Source\GasRPG\Characters">
-      <UniqueIdentifier>{914CE43B-BC80-4CCB-B117-599A9254FEB7}</UniqueIdentifier>
+      <UniqueIdentifier>{AFC6DDA1-EDA0-4977-802D-BFB83BB1A17F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GasRPG\Characters\BaseCharacter.cpp">
       <Filter>Source\GasRPG\Characters</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\GasRPG\Characters</Filter>
     </ClInclude>
     <Filter Include="Source\GasRPG\GAS">
-      <UniqueIdentifier>{946AC757-A82F-47CB-A478-2A93C80F84C5}</UniqueIdentifier>
+      <UniqueIdentifier>{4335776F-A5A4-47B8-BE89-F8CEEA28617A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GasRPG\GAS\GASAttribute.cpp">
       <Filter>Source\GasRPG\GAS</Filter>

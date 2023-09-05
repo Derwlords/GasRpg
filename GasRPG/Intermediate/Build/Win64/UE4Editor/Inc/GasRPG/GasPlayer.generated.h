@@ -13,28 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GASRPG_GasPlayer_generated_h
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_SPARSE_DATA
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_RPC_WRAPPERS
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_INCLASS_NO_PURE_DECLS \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_SPARSE_DATA
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_RPC_WRAPPERS
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGasPlayer(); \
 	friend struct Z_Construct_UClass_AGasPlayer_Statics; \
 public: \
 	DECLARE_CLASS(AGasPlayer, ABaseCharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/GasRPG"), NO_API) \
-	DECLARE_SERIALIZER(AGasPlayer)
+	DECLARE_SERIALIZER(AGasPlayer) \
+	virtual UObject* _getUObject() const override { return const_cast<AGasPlayer*>(this); }
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_INCLASS \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAGasPlayer(); \
 	friend struct Z_Construct_UClass_AGasPlayer_Statics; \
 public: \
 	DECLARE_CLASS(AGasPlayer, ABaseCharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/GasRPG"), NO_API) \
-	DECLARE_SERIALIZER(AGasPlayer)
+	DECLARE_SERIALIZER(AGasPlayer) \
+	virtual UObject* _getUObject() const override { return const_cast<AGasPlayer*>(this); }
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_STANDARD_CONSTRUCTORS \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGasPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGasPlayer) \
@@ -47,7 +49,7 @@ private: \
 public:
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_ENHANCED_CONSTRUCTORS \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGasPlayer(AGasPlayer&&); \
@@ -58,7 +60,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGasPlayer)
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_PRIVATE_PROPERTY_OFFSET \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(AGasPlayer, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AGasPlayer, Camera); } \
 	FORCEINLINE static uint32 __PPO__LookUpRate() { return STRUCT_OFFSET(AGasPlayer, LookUpRate); } \
@@ -68,27 +70,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__SprintActive() { return STRUCT_OFFSET(AGasPlayer, SprintActive); }
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_12_PROLOG
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_GENERATED_BODY_LEGACY \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_16_PROLOG
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_PRIVATE_PROPERTY_OFFSET \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_SPARSE_DATA \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_RPC_WRAPPERS \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_INCLASS \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_STANDARD_CONSTRUCTORS \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_PRIVATE_PROPERTY_OFFSET \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_SPARSE_DATA \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_RPC_WRAPPERS \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_INCLASS \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_GENERATED_BODY \
+#define GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_PRIVATE_PROPERTY_OFFSET \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_SPARSE_DATA \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_INCLASS_NO_PURE_DECLS \
-	GasRPG_Source_GasRPG_Characters_GasPlayer_h_15_ENHANCED_CONSTRUCTORS \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_PRIVATE_PROPERTY_OFFSET \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_SPARSE_DATA \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_INCLASS_NO_PURE_DECLS \
+	GasRPG_Source_GasRPG_Characters_GasPlayer_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

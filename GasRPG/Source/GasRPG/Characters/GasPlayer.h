@@ -4,23 +4,39 @@
 
 #include "CoreMinimal.h"
 #include "BaseCharacter.h"
+#include <GameplayEffectTypes.h>
+#include "AbilitySystemInterface.h"
 #include "GasPlayer.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
 class UCharacterMovementComponent;
+class UGASPlayerSystemComponent;
+class UGASAttribute;
 UCLASS()
-class GASRPG_API AGasPlayer : public ABaseCharacter
+class GASRPG_API AGasPlayer : public ABaseCharacter,public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
+public:
 
 	AGasPlayer();
 
 	
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent()const override;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = GAS)
+		UGASPlayerSystemComponent* AbilitySystemComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = GAS)
+	UGASAttribute* Attribute;
+	
 private:
+
+
 
 	UPROPERTY(EditDefaultsOnly,Category = Camera)
 	USpringArmComponent* SpringArm;

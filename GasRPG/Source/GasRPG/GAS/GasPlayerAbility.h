@@ -14,4 +14,10 @@ class GASRPG_API UGasPlayerAbility : public UGameplayAbility
 {
 	GENERATED_BODY()
 	
+
+public:
+
+	UGasPlayerAbility();
+
+
 };

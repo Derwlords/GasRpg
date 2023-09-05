@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\derwl\\Documents\\GitHub\\GasRpg\\GasRPG\\Source\\GasRPG\\GasRPG.Build.cs",
-		"C:\\Users\\derwl\\Documents\\GitHub\\GasRpg\\GasRPG\\Source\\GasRPG.Target.cs",
-		"C:\\Users\\derwl\\Documents\\GitHub\\GasRpg\\GasRPG\\Source\\GasRPGEditor.Target.cs"
+		"C:\\Users\\derwl\\Documents\\GasRpg\\GasRPG\\Source\\GasRPG\\GasRPG.Build.cs",
+		"C:\\Users\\derwl\\Documents\\GasRpg\\GasRPG\\Source\\GasRPG.Target.cs",
+		"C:\\Users\\derwl\\Documents\\GasRpg\\GasRPG\\Source\\GasRPGEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
