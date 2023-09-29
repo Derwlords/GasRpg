@@ -42,4 +42,5 @@ C:\Unreal\UE_4.27\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerI
 C:\Unreal\UE_4.27\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
 C:\Unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
 C:\Unreal\UE_4.27\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbility.generated.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG/GasRPG.h
 C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\GasPlayerAbility.generated.h

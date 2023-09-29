@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Abilities/GameplayAbility.h"
+#include "GasRPG/GasRPG.h"
 #include "GasPlayerAbility.generated.h"
 
 /**
@@ -19,5 +20,7 @@ public:
 
 	UGasPlayerAbility();
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere,Category = Ability)
+		EGASAbilityInputID  AbilitiInputID = EGASAbilityInputID::None;
 
 };

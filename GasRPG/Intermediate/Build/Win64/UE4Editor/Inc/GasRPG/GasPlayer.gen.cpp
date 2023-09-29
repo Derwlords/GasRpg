@@ -17,6 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 	GASRPG_API UClass* Z_Construct_UClass_AGasPlayer();
 	GASRPG_API UClass* Z_Construct_UClass_ABaseCharacter();
 	UPackage* Z_Construct_UPackage__Script_GasRPG();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UGameplayEffect_NoRegister();
+	GASRPG_API UClass* Z_Construct_UClass_UGasPlayerAbility_NoRegister();
 	GASRPG_API UClass* Z_Construct_UClass_UGASPlayerSystemComponent_NoRegister();
 	GASRPG_API UClass* Z_Construct_UClass_UGASAttribute_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -36,6 +39,15 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefaultAttributeEffect_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DefaultAttributeEffect;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DefaultAbilities_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefaultAbilities_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_DefaultAbilities;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilitySystemComponent_MetaData[];
 #endif
@@ -89,6 +101,21 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAttributeEffect_MetaData[] = {
+		{ "Category", "GAS" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAttributeEffect = { "DefaultAttributeEffect", nullptr, (EPropertyFlags)0x0014000000010015, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, DefaultAttributeEffect), Z_Construct_UClass_UGameplayEffect_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAttributeEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAttributeEffect_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities_Inner = { "DefaultAbilities", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UGasPlayerAbility_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities_MetaData[] = {
+		{ "Category", "GAS" },
+		{ "ModuleRelativePath", "Characters/GasPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities = { "DefaultAbilities", nullptr, (EPropertyFlags)0x0014000000010015, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGasPlayer, DefaultAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGasPlayer_Statics::NewProp_AbilitySystemComponent_MetaData[] = {
 		{ "Category", "GAS" },
@@ -161,6 +188,9 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive = { "SprintActive", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AGasPlayer), &Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGasPlayer_Statics::NewProp_SprintActive_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGasPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAttributeEffect,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_DefaultAbilities,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_AbilitySystemComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_Attribute,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGasPlayer_Statics::NewProp_SpringArm,
@@ -201,7 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeGasPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGasPlayer, 3588631408);
+	IMPLEMENT_CLASS(AGasPlayer, 1240616729);
 	template<> GASRPG_API UClass* StaticClass<AGasPlayer>()
 	{
 		return AGasPlayer::StaticClass();
