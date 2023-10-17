@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\GasRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0C56CB1B-4ED2-4288-9DAB-E97A4E49D295}</UniqueIdentifier>
+      <UniqueIdentifier>{EE5909B6-095D-43C9-9981-0C0C49A71E47}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GasRPG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CD751536-3B45-49B0-B037-76D95A5ED147}</UniqueIdentifier>
+      <UniqueIdentifier>{5F234CC4-49B3-4A70-AC74-8C610EF39D62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,11 +23,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GasRPG">
-      <UniqueIdentifier>{26A88BA5-0D34-4192-A2CC-943431723D49}</UniqueIdentifier>
+      <UniqueIdentifier>{727EB671-270C-4205-915B-346DE1DE4929}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GasRPG\GasRPG.Build.cs">
       <Filter>Source\GasRPG</Filter>
@@ -45,7 +48,7 @@
       <Filter>Source\GasRPG</Filter>
     </ClInclude>
     <Filter Include="Source\GasRPG\Characters">
-      <UniqueIdentifier>{AFC6DDA1-EDA0-4977-802D-BFB83BB1A17F}</UniqueIdentifier>
+      <UniqueIdentifier>{808CCA00-6313-4000-987E-2C666258DCC7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GasRPG\Characters\BaseCharacter.cpp">
       <Filter>Source\GasRPG\Characters</Filter>
@@ -53,14 +56,8 @@
     <ClInclude Include="..\..\Source\GasRPG\Characters\BaseCharacter.h">
       <Filter>Source\GasRPG\Characters</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\GasRPG\Characters\GasPlayer.cpp">
-      <Filter>Source\GasRPG\Characters</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GasRPG\Characters\GasPlayer.h">
-      <Filter>Source\GasRPG\Characters</Filter>
-    </ClInclude>
     <Filter Include="Source\GasRPG\GAS">
-      <UniqueIdentifier>{4335776F-A5A4-47B8-BE89-F8CEEA28617A}</UniqueIdentifier>
+      <UniqueIdentifier>{15BFC0D0-16CF-4DF7-80F5-7EEF4A447BA4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GasRPG\GAS\GASAttribute.cpp">
       <Filter>Source\GasRPG\GAS</Filter>
@@ -79,6 +76,30 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\GasRPG\GAS\GASPlayerSystemComponent.h">
       <Filter>Source\GasRPG\GAS</Filter>
+    </ClInclude>
+    <Filter Include="Source\GasRPG\Player">
+      <UniqueIdentifier>{67F7D315-E4E9-40AF-843B-A559858E23B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GasRPG\Player\GasPlayer.cpp">
+      <Filter>Source\GasRPG\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\Player\GasPlayer.h">
+      <Filter>Source\GasRPG\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GasRPG\Player\GPlayerState.cpp">
+      <Filter>Source\GasRPG\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\Player\GPlayerState.h">
+      <Filter>Source\GasRPG\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\GasRPG\Selectable Objects">
+      <UniqueIdentifier>{82C0FBE7-49DD-41C7-B931-E0D06CFD06B7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GasRPG\Selectable Objects\BaseObject.cpp">
+      <Filter>Source\GasRPG\Selectable Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GasRPG\Selectable Objects\BaseObject.h">
+      <Filter>Source\GasRPG\Selectable Objects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

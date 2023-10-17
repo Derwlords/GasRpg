@@ -228,7 +228,7 @@ void EmptyLinkFunctionForGeneratedCodeGASAttribute() {}
 		{ "ModuleRelativePath", "GAS/GASAttribute.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGASAttribute_Statics::NewProp_Stamina = { "Stamina", "OnRep_Stamina", (EPropertyFlags)0x0010000100000034, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGASAttribute, Stamina), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_UGASAttribute_Statics::NewProp_Stamina_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGASAttribute_Statics::NewProp_Stamina_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGASAttribute_Statics::NewProp_Stamina = { "Stamina", "OnRep_Stamina", (EPropertyFlags)0x0010000100000024, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGASAttribute, Stamina), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_UGASAttribute_Statics::NewProp_Stamina_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGASAttribute_Statics::NewProp_Stamina_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGASAttribute_Statics::NewProp_AttackPower_MetaData[] = {
 		{ "Category", "Attributes" },
@@ -268,7 +268,7 @@ void EmptyLinkFunctionForGeneratedCodeGASAttribute() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGASAttribute, 2711777581);
+	IMPLEMENT_CLASS(UGASAttribute, 2230657394);
 	template<> GASRPG_API UClass* StaticClass<UGASAttribute>()
 	{
 		return UGASAttribute::StaticClass();

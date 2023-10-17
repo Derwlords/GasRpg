@@ -1,0 +1,3 @@
+C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\Selectable Objects\BaseObject.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\BaseObject.generated.h

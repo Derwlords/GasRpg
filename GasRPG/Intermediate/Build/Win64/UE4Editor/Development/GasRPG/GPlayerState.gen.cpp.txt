@@ -1,0 +1,7 @@
+C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
+C:\Unreal\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Unreal\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG/Player/GPlayerState.h
+C:\Unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
+C:\Unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\GPlayerState.generated.h

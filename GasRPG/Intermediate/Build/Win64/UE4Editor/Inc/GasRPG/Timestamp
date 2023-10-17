@@ -1,7 +1,9 @@
 C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\Characters\BaseCharacter.h
-C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\Characters\GasPlayer.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\GAS\GASAttribute.h
 C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\GAS\GasPlayerAbility.h
 C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\GAS\GASPlayerSystemComponent.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\Player\GasPlayer.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\Player\GPlayerState.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\Selectable Objects\BaseObject.h
 C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\GasRPG.h
 C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\GasRPGGameModeBase.h
-C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG\GAS\GASAttribute.h

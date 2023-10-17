@@ -28,7 +28,7 @@ public:
 		FGameplayAttributeData Health;
 	ATTRIBUTE_ACCESSORS(UGASAttribute, Health);
 
-	UPROPERTY(BlueprintReadOnly, Category = "Attributes", ReplicatedUsing = OnRep_Stamina)
+	UPROPERTY(BlueprintReadWrite, Category = "Attributes", ReplicatedUsing = OnRep_Stamina)
 		FGameplayAttributeData Stamina;
 	ATTRIBUTE_ACCESSORS(UGASAttribute, Stamina);
 

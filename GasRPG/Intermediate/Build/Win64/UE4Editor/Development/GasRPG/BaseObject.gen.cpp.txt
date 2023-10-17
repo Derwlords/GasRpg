@@ -1,0 +1,5 @@
+C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Development\GasRPG\Definitions.GasRPG.h
+C:\Unreal\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Unreal\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Source\GasRPG/Selectable Objects/BaseObject.h
+C:\Users\derwl\Documents\GasRpg\GasRPG\Intermediate\Build\Win64\UE4Editor\Inc\GasRPG\BaseObject.generated.h
